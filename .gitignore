@@ -1,0 +1,4 @@
+/cmake-build-plugin/.gradle/
+/cmake-build-plugin/build/
+/.gradle/
+/.idea/

@@ -1,0 +1,11 @@
+plugins {
+    id 'com.walker.plugins.cmake-library' version '1.0'
+}
+
+group = "com.walker.glfw-gradle"
+version = "1.0"
+
+cmake {
+    binary = "glfw/src/libglfw3.a"
+    projectDirectory = file("glfw")
+}

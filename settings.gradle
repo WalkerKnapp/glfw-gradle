@@ -1,0 +1,3 @@
+rootProject.name = 'glfw-gradle'
+
+includeBuild "cmake-build-plugin"
