@@ -2,3 +2,4 @@
 /cmake-build-plugin/build/
 /.gradle/
 /.idea/
+/local.properties

@@ -1,11 +1,11 @@
 plugins {
-    id('com.github.WalkerKnapp.cmake-build-plugin') version '90b4be0ec6'
+    id('com.github.WalkerKnapp.cmake-build-plugin') version 'ab5f84aa17'
 }
 
 group = "com.walker.glfw-gradle"
 version = "1.0"
 
 cmake {
-    binary = "glfw/src/libglfw3.a"
+    binary = "src/libglfw3.a"
     projectDirectory = file("glfw")
 }
