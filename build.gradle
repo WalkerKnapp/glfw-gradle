@@ -1,5 +1,5 @@
 plugins {
-    id 'com.walker.plugins.cmake-library' version '1.0'
+    id('com.github.WalkerKnapp.cmake-build-plugin') version '90b4be0ec6'
 }
 
 group = "com.walker.glfw-gradle"
